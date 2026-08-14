@@ -1,0 +1,91 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#170F2C"/>
+      <stop offset="100%" stop-color="#1D1338"/>
+    </linearGradient>
+    <linearGradient id="bgRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B1030"/>
+      <stop offset="100%" stop-color="#221540"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7F52FF"/>
+      <stop offset="100%" stop-color="#F88909"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7F52FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7F52FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#7F52FF" opacity="0.10"/>
+    </pattern>
+    <clipPath id="roundedFrame">
+      <rect x="1" y="1" width="1198" height="298" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <!-- panes -->
+    <rect x="0" y="0" width="1200" height="300" fill="#0F0A1F"/>
+    <rect x="0" y="34" width="600" height="266" fill="url(#bgLeft)"/>
+    <rect x="600" y="34" width="600" height="266" fill="url(#bgRight)"/>
+    <rect x="0" y="34" width="1200" height="266" fill="url(#glow)"/>
+    <rect x="0" y="34" width="600" height="266" fill="url(#dotGrid)"/>
+
+    <!-- gradient accent line under chrome bar -->
+    <rect x="0" y="34" width="1200" height="2" fill="url(#accentBar)"/>
+
+    <!-- window chrome bar -->
+    <rect x="0" y="0" width="1200" height="34" fill="#0C0819"/>
+    <circle cx="18" cy="17" r="5.5" fill="#FF5F57"/>
+    <circle cx="36" cy="17" r="5.5" fill="#FEBC2E"/>
+    <circle cx="54" cy="17" r="5.5" fill="#28C840"/>
+
+    <rect x="86" y="7" width="82" height="20" rx="5" fill="#1E1440"/>
+    <text x="127" y="21" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="11" fill="#D8CFFF" text-anchor="middle">terminal</text>
+
+    <rect x="178" y="7" width="92" height="20" rx="5" fill="transparent"/>
+    <text x="224" y="21" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="11" fill="#6B5B95" text-anchor="middle">Tanmay.kt</text>
+
+    <!-- vertical divider -->
+    <line x1="600" y1="34" x2="600" y2="300" stroke="#332560" stroke-width="1"/>
+
+    <!-- LEFT PANE: terminal -->
+    <text x="40" y="78" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="15" fill="#6B5B95">$ whoami</text>
+
+    <text x="40" y="140" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="52" font-weight="700" fill="#F5F1FF" letter-spacing="2">TANMAY</text>
+
+    <text x="40" y="175" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="19" font-weight="600" fill="#F88909">Android Developer</text>
+
+    <text x="40" y="222" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14" fill="#6B5B95">$ cat skills.txt</text>
+    <text x="40" y="248" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="13" fill="#B7ABE0">Kotlin · Jetpack Compose · Node.js · AWS</text>
+
+    <text x="40" y="278" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="15" fill="#6B5B95">$ <tspan fill="#F88909">_</tspan></text>
+
+    <!-- RIGHT PANE: editor -->
+    <rect x="600" y="34" width="34" height="266" fill="#160F2A"/>
+    <text x="622" y="72" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">1</text>
+    <text x="622" y="98" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">2</text>
+    <text x="622" y="124" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">3</text>
+    <text x="622" y="150" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">4</text>
+    <text x="622" y="176" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">5</text>
+    <text x="622" y="202" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#463A6E" text-anchor="middle">6</text>
+
+    <text x="648" y="72" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5"><tspan fill="#B48CFF">class</tspan><tspan fill="#ECE7FA"> </tspan><tspan fill="#FFB86B">Tanmay</tspan><tspan fill="#ECE7FA"> : </tspan><tspan fill="#FFB86B">Developer</tspan><tspan fill="#ECE7FA">() {</tspan></text>
+
+    <text x="648" y="98" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5"><tspan fill="#ECE7FA">    </tspan><tspan fill="#B48CFF">val</tspan><tspan fill="#ECE7FA"> stack = </tspan><tspan fill="#FFB86B">listOf</tspan><tspan fill="#ECE7FA">(</tspan></text>
+
+    <text x="648" y="124" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5"><tspan fill="#ECE7FA">        Kotlin, Compose, Node</tspan></text>
+
+    <text x="648" y="150" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5"><tspan fill="#ECE7FA">    )</tspan></text>
+
+    <text x="648" y="176" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5"><tspan fill="#ECE7FA">    </tspan><tspan fill="#B48CFF">fun</tspan><tspan fill="#ECE7FA"> </tspan><tspan fill="#FFB86B">ship</tspan><tspan fill="#ECE7FA">() = Apps.</tspan><tspan fill="#FFB86B">production</tspan><tspan fill="#ECE7FA">()</tspan></text>
+
+    <text x="648" y="202" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14.5" fill="#ECE7FA">}</text>
+
+    <text x="648" y="240" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12.5" font-style="italic" fill="#5C4E88">// building modern mobile experiences</text>
+
+    <!-- footer -->
+    <text x="1160" y="290" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="12" fill="#6B5B95" text-anchor="end">github.com/tanmaybariik</text>
+  </g>
+</svg>
